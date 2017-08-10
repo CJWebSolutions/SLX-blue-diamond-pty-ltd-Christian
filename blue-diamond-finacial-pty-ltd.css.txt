@@ -1,0 +1,131 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+/*----------------------------------------------------------------
+	Branding Colour
+----------------------------------------------------------------*/
+
+h1, h2, h3, h4, h5, h6, #header2, ul, ol, ul li, ol li, ul a, ol a, ul a:hover, ol a:hover, ul a:focus, ol a:focus, .contact_detail, .contact_detail a, .contact_detail a:hover, .contact_detail a:focus, .formbuilder-form input#submit-form, #header2a a {font-weight: 300;/* color: #3498DB; */}
+
+/*----------------------------------------------------------------
+	Hide Blocks
+----------------------------------------------------------------*/
+
+#banner { /* display: none; */ }
+#services { background:#47aed3;}
+#content {
+    background-color: #000;
+}
+	#content1 { /* display: none; */ }
+	#content2 { /* display: none; */ }
+	#content3 { /* display: none; */ }
+	#content4 {  display: none;  }
+	#content5 {  display: none; }
+	#content6 {  display: none;  }
+
+#gallery { /* display: none; */ }
+#contact2c, #contact2d, #contact2e, #contact2f, #contact2g {  display: none;  }
+
+
+/*----------------------------------------------------------------
+	Custom Styles
+----------------------------------------------------------------*/
+
+/*- Font Family -*/
+h1, h2, h3, h4, h5, h6 {
+	/* font-family: 'Roboto', Arial, Helvetica, sans-serif; */
+	/* font-family: 'Roboto Slab', Palatino, "Book Antiqua", Garamond, Georgia, serif; */
+font-family: 'Montserrat', sans-serif;
+}
+ul li p {font-family: 'Montserrat', sans-serif; font-weight:300;}
+#header2{/* padding-top:30px; */}
+#header2a {
+    font-size: 28px;
+    line-height: 30px;
+}
+#header{padding:0px 0px;}
+#header1{padding-top:30px;}
+header a, header span, #header2a:before{color: #71a6c5;font-weight: 400;}
+#header2a:before{font-size:24px; color:#71a6c5;}
+#header2b, #header2b a{color: #fff;font-size: 20px;}
+
+#banner {
+	 padding: 100px 0 100px;
+}
+#banner1 {margin: 0;text-align: center;animation: move 2s ease; width: 100%;}
+#banner1 h1 {color:#fff;text-align: left;font-weight: 400;}
+#banner1 p{color:#fff;text-align: left;}
+.banner_cover {height: 200px;background: #000000;opacity:1;}
+
+#extraFormsContainer .modal-dialog{background: #f2f2f2;}
+.formbuilder-form label{color:#000;}
+#extraFormsContainer .modal-dialog input#submit-form, .formbuilder-form input#submit-form {color:#fff;}
+.form, #quote_form_form {background:#eee;}
+
+#btn2 , .btn ,input#submit-form {text-transform: uppercase;transition: 0.2s 0.2s ease-out;color: #fff;background-color: #71a6c5;border-color: #71a6c5;}
+#btn2:hover, #btn2:focus, .btn:hover, .btn:focus input#submit-form:hover{   color: #ffffff;
+    background-color: #71a6c5;
+    border-color: #71a6c5; text-decoration:none; box-shadow: 0px 0px 15px rgba(0,0,0,0.5);}
+
+
+#content h3{color: #71a6c5;}
+#content .img-responsive{border-radius:5px;}
+#content p, ul li{color:#fff;}
+#services {/* background:#2f71b3; */}
+#services h4{color:#fff;}
+#services p{color:#fff;}
+#contact1a h3, #contact2a h3{color: #71a6c5;}
+#contact ul,li{color:#333;font-weight:300;}
+#contact2b p{color:#fff;}
+
+footer{background:#71a6c5;border-top: solid 3px #71a6c5;}
+footer a, footer p {color:#fff;}
+/*----------------------------------------------------------------
+	Media Queries
+----------------------------------------------------------------*/
+
+
+
+
+@media (max-width: 1199px) {}
+@media (max-width: 991px) {}
+@media (max-width: 767px) {.banner_cover {height: 280px;} #service3{clear:left;}}
+@media (max-width: 420px) {}
+@media (max-width: 320px) {}
+
+/*----------------------------------------------------------------
+	Fixes
+----------------------------------------------------------------*/
+
+#content ul li:before, 
+#services ul li:before, 
+#contact1a ul li:before, 
+#contact1b ul li:before, 
+#contact2 ul li:before {
+    content: '\f00c';
+}
+#contact{background-color: #000;}
+
+@media only screen and (max-width: 767px){
+    #content ul li:before, 
+    #services ul li:before, 
+    #contact1a ul li:before, 
+    #contact1b ul li:before, 
+    #contact2 ul li:before {
+            position: relative;
+            top: auto;
+            left: auto;
+            margin-right: 8px;
+        }
+}
+@media (min-width: 767px) {
+	#content1b, 
+	#content2a, 
+	#content3b, 
+	#content4a, 
+	#content5b, 
+	#content6a {
+		padding-top: 31px;
+		}
+}
+
